@@ -1,0 +1,36 @@
+.window {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 660px;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (max-width: 660px) {
+        width: auto;
+    }
+}
+
+.window__header,
+.window__footer {
+    height: 90px;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 30px 40px;
+    font-size: 26px;
+    line-height: 30px;
+    @media (max-width: 660px) {
+        font-size: 26px;
+    }
+}
+
+.window__content {
+    padding: 70px 40px;
+    overflow-y: auto;
+    font-size: 16px;
+    line-height: 150%;
+}

@@ -1,0 +1,19 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    font-size: 26px;
+    @media (max-width: 600px) {
+        font-size: 23px;
+    }
+}
+
+p {
+    font-weight: 400;
+    margin: 0;
+}
